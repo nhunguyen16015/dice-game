@@ -12,7 +12,7 @@ var randomDiceImage2 = null;
 document.querySelectorAll("img")[0].classList.add("zoom-in-and-out");
 setTimeout(() => {
     document.querySelectorAll("img")[0].classList.remove("zoom-in-and-out");
-}, 2000);
+}, 1000);
 
 button1.onclick = function () {
 
@@ -25,7 +25,7 @@ button1.onclick = function () {
     setTimeout(() => {
         document.querySelectorAll("img")[0].classList.remove("rotate");
     }
-        , 500);
+        , 1000);
 
     setTimeout(() => {
         document.querySelectorAll("img")[1].classList.add("zoom-in-and-out");
@@ -34,7 +34,7 @@ button1.onclick = function () {
 
     setTimeout(() => {
         document.querySelectorAll("img")[1].classList.remove("zoom-in-and-out");
-    }, 2000);
+    }, 1000);
 };
 
 var button2 = document.getElementById("dice-button2");
@@ -63,7 +63,7 @@ button2.onclick = function () {
         , 500);
     setTimeout(() => {
         document.querySelectorAll("img")[0].classList.remove("zoom-in-and-out");
-    }, 2000);
+    }, 1000);
 
 }
 
